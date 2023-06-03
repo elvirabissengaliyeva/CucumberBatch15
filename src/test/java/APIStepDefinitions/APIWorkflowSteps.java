@@ -1,4 +1,4 @@
-package APIStepDefenition;
+package APIStepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -52,7 +52,9 @@ public class APIWorkflowSteps {
 
     @Then("the employee id {string} is stored as a global variable to be used for other calls")
     public void the_employee_id_is_stored_as_a_global_variable_to_be_used_for_other_calls(String string) {
+
         employee_id = response.jsonPath().getString(string);
+        System.out.println(employee_id);
 
 
     }

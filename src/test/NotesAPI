@@ -634,3 +634,20 @@ response - after sending the request, response will be stored in this variable
 
 hamcrest matchers -
 
+Class 8 -
+
+Recap -
+
+@Test  - Junit, to execute API test cases in hard coded examples class
+
+to integrate API in framework, we have to write API scenarios in feature file
+
+to generate token, we have created generate token steps class
+
+
+Class 9 -
+
+using different (json) payload to create an employee
+created constants class to keep all the constants such as end points, headers, uri
+created api payload constants class - to send all the payload from the methods of this class
+retrieved the created employee and verify all the details of it

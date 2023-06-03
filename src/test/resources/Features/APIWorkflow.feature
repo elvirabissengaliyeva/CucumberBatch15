@@ -1,6 +1,7 @@
 Feature: API workflow for HRMS
 
-  Background:Given a JWT is generated
+  Background:
+    Given a JWT is generated
 
 
   @api
